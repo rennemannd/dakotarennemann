@@ -16,10 +16,12 @@ const Home: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Testing server webhook
-          Testing more server webhook deployment
+          Learn React!
         </a>
       </header>
+    <div>
+      This is just text I'm putting here for testing webhooks used to automate the build process
+    </div>
     </div>
   );
 }
