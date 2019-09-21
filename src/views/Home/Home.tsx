@@ -16,7 +16,7 @@ const Home: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Testing server webhook
         </a>
       </header>
     </div>
