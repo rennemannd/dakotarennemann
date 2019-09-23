@@ -1,27 +1,40 @@
 import React from 'react';
-import logo from '../../logo.svg';
+import logo from '../../maintenance.png';
 import './Home.css';
 
 const Home: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          This site is currently down for maintenance, below are temporary work-related links:
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://drive.google.com/file/d/1DsEsUamQWXeQ5ZefR-y3jqBUd54F35av/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React!
+          Resume
+        </a>
+        <a
+            className="App-link"
+            href="https://github.com/rennemannd"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          Github
+        </a>
+        <a
+            className="App-link"
+            href="https://www.linkedin.com/in/rennemannd/"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          LinkdIn
         </a>
       </header>
-    <div>
-      This is just text I'm putting here for testing webhooks used to automate the build process
-    </div>
     </div>
   );
 }

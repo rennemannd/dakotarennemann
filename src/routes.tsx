@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import Home from './views/Home/Home';
 import Temp from './views/Temp/Temp';
-import NotFound from './views/NotFound/NotFound';
+import NotFound from './views/NotFound';
 
 
 export const Routes = () => {
