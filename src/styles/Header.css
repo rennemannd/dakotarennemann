@@ -1,0 +1,26 @@
+div {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.Typist .Cursor {
+    display: inline-block; }
+.Typist .Cursor--blinking {
+    opacity: 1;
+    animation: blink 1s linear infinite; }
+
+.Header {
+    text-align: center;
+    background-color: #282c34;
+}
+
+.Header-name {
+    color: dodgerblue;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1; }
+    50% {
+        opacity: 0; }
+    100% {
+        opacity: 1; } }
