@@ -1,24 +1,16 @@
-import React from 'react'
-import Typist from 'react-typist';
-import logo from "../maintenance.png";
-import "../styles/Header.css"
+import React from 'react';
+import '../styles/Header.css'
+import HeaderText from "./HeaderText";
+import Particles from 'react-particles-js';
+
 
 const Header = () => {
-    return(
-        <div className="Header">
-            <h2>
-                My name is <em className="Header-name">Dakota Rennemann</em>
-            </h2>
-            <h2>
-                <Typist className ="MyTypist">
-                    <em>I like to </em>
-                    <em>design solutions</em>
-                    <Typist.Backspace count={16} delay={800} />
-                    <em>solve problems</em>
-                    <Typist.Backspace count={14} delay={900} />
-                    <em>innovate</em>
-                </Typist>
-            </h2>
+    return (
+        <div>
+            <div className="Header-particles">
+                <Particles/>
+            </div>
+            <HeaderText/>
         </div>
     )
 }

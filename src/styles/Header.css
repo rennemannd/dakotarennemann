@@ -17,6 +17,16 @@ div {
     color: dodgerblue;
 }
 
+.Header-particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.Header-particles canvas {
+    position: fixed;
+}
+
 @keyframes blink {
     0% {
         opacity: 1; }

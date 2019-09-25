@@ -11,6 +11,12 @@ a:hover, a:active {
   background-color: blue;
 }
 
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
 .Home {
   text-align: center;
   background-color: #282c34;
@@ -50,7 +56,7 @@ a:hover, a:active {
   justify-content: space-evenly;
 }
 
-.Home.link {
+.Home-link {
   color: #61dafb;
 }
 
