@@ -1,8 +1,6 @@
 import React from 'react';
 import NavItem from './NavLink';
 import '../../styles/Navbar.css'
-import { Link } from 'react-scroll';
-
 
 const Navbar = () => {
     let allLinks = LINKS.slice(0,3);
