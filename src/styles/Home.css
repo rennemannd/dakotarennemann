@@ -1,40 +1,25 @@
-a:link, a:visited {
-  background-color: darkblue;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-a:hover, a:active {
-  background-color: blue;
-}
-
 body {
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
+  font-family: 'IBM Plex Serif', serif;
+  background-color: #282c34;
+
 }
 
 .Home {
   text-align: center;
-  background-color: #282c34;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
 }
 
 .Home-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  min-height: 100vmin;
+  width: 100%;
+  height: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -67,4 +52,24 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+a:link, a:visited {
+  background-color: darkblue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: blue;
 }
