@@ -9,12 +9,42 @@ div {
     animation: blink 1s linear infinite; }
 
 .Header {
-    text-align: center;
     background-color: #282c34;
 }
 
 .Header-name {
     color: dodgerblue;
+}
+
+.Header-particles {
+    position: center;
+}
+
+.Header-particles canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Header-typist {
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.Header-typist em{
+    color: orange
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
 }
 
 @keyframes blink {
