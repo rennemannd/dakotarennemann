@@ -7,7 +7,7 @@ import ParticleParams from '../../docs/particles';
 
 const Header = () => {
     return (
-        <div >
+        <div className="Header">
             <div className="Header-particles noselect">
                 <Particles params={ParticleParams}/>
             </div>

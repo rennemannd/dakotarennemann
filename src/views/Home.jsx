@@ -1,22 +1,22 @@
 import React from 'react';
-import '../../styles/Home.css';
-import Header from '../../components/Header/Header';
-import NavBar from '../../components/Navbar/Navbar'
+import '../styles/Home.css';
+import Header from '../components/Header/Header';
+import NavBar from '../components/Navbar/Navbar';
+import About from '../components/About/About';
 
 
 // This is the main home view for the website
 const Home = () => {
   return (
-    <div className="Home" id="title">
+    <div className="Home">
         <NavBar />
-        <div className="Home-header">
+        <div className="Home-header" id="title">
             <Header id = "about" />
         </div>
       <div className="Home-body" id="about">
-          This should be the about section
+          <About/>
       </div>
         <div className="Home-body" id="resume">
-            This should be the resume section
         </div>
     </div>
   );
