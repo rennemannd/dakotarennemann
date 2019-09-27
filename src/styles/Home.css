@@ -15,11 +15,11 @@ body {
   background-color: #282c34;
   display: flex;
   flex-direction: column;
-  min-height: 100vmin;
+  min-height: 100vh;
   width: 100%;
   height: 100%;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -27,10 +27,6 @@ body {
 .Home-body {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -59,17 +55,4 @@ body {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
-}
-
-a:link, a:visited {
-  background-color: darkblue;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-a:hover, a:active {
-  background-color: blue;
 }

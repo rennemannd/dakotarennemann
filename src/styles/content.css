@@ -1,0 +1,29 @@
+.page-header {
+    padding-top: 4%;
+}
+
+.page-element {
+    display: flex;
+    justify-content: center;
+}
+
+.page-headshot {
+    width: 20%;
+    height: 20%;
+}
+
+.page-content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.page-links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.page-links img {
+    height:100px;
+    width:100px;
+}
