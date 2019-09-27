@@ -3,6 +3,7 @@ import '../styles/Home.css';
 import Header from '../components/Header/Header';
 import NavBar from '../components/Navbar/Navbar';
 import About from '../components/About/About';
+import Resume from '../components/Resume';
 
 
 // This is the main home view for the website
@@ -17,6 +18,7 @@ const Home = () => {
           <About/>
       </div>
         <div className="Home-body" id="resume">
+            <Resume />
         </div>
     </div>
   );
