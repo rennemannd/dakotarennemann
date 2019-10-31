@@ -1,5 +1,4 @@
 import React from 'react';
-import NavItem from './NavLink';
 import '../../styles/Navbar.css'
 import {Link} from "react-scroll";
 
