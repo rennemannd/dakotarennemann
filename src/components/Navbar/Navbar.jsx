@@ -1,6 +1,9 @@
 import React from 'react';
-import '../../styles/Navbar.css'
+import '../../assets/styles/Navbar.css'
 import {Link} from "react-scroll";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
 
@@ -29,17 +32,15 @@ const Navbar = () => {
                 >
                     About
                 </Link>
-                <Link
+                <a
                     className="navItem"
-                    activeClass="active"
-                    to="resume"
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration={500}
+                    target='_blank'
+                    rel="noopener noreferrer"
+                    href="https://github.com/rennemannd/dakotarennemann/blob/master/src/assets/docs/Resume.pdf"
                 >
                     Resume
-                </Link>
+                    <FontAwesomeIcon icon={faExternalLinkAlt} size="xs" transform="up-6 right-4"/>
+                </a>
             </div>
         </nav>
     )
