@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../styles/Header.css'
+import '../../assets/styles/Header.css'
 import HeaderText from "./HeaderText";
 import Particles from 'react-particles-js';
-import ParticleParams from '../../docs/particles';
+import ParticleParams from '../../assets/docs/particles';
 
 
 const Header = () => {

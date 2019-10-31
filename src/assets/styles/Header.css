@@ -24,9 +24,8 @@ div {
 
 .Header-typist {
     display: flex;
-    justify-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content: flex-start;
     background: none;
 }
 
