@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/styles/Header.css'
+import './Header.css'
 import HeaderText from "./HeaderText";
 import Particles from 'react-particles-js';
 import ParticleParams from '../../assets/docs/particles';

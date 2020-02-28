@@ -1,8 +1,8 @@
 import React from 'react';
-import '../assets/styles/Home.css';
-import Header from '../components/Header/Header';
-import NavBar from '../components/Navbar/Navbar';
-import About from '../components/About/About';
+import '../../assets/styles/Home.css';
+import Header from '../../components/Header/Header';
+import NavBar from '../../components/Navbar/Navbar';
+import About from '../../components/About/About';
 
 // This is the main home view for the website
 const Home = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/styles/Navbar.css'
+import './Navbar.css'
 import {Link} from "react-scroll";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
