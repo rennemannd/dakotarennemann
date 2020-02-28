@@ -9,18 +9,16 @@ const Navbar = () => {
 
     return(
         <nav className="navBar">
-            <div className="navItems">
-                <Link
-                    className="navItem"
+            <Link
+                    className="Circle"
                     activeClass="active"
                     to="title"
                     spy={true}
                     smooth={true}
                     offset={0}
                     duration={500}
-                >
-                    Welcome
-                </Link>
+                / >
+            <div className="navItems">
                 <Link
                 className="navItem"
                 activeClass="active"
