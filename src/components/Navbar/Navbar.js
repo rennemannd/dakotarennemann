@@ -8,7 +8,7 @@ import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
 
     return(
-        <nav className="navBar">
+        <div className="navBar">
             <Link
                     className="Circle"
                     activeClass="active"
@@ -17,7 +17,7 @@ const Navbar = () => {
                     smooth={true}
                     offset={0}
                     duration={500}
-                / >
+                />
             <div className="navItems">
                 <Link
                 className="navItem"
@@ -40,7 +40,7 @@ const Navbar = () => {
                     <FontAwesomeIcon icon={faExternalLinkAlt} size="xs" transform="up-6 right-4"/>
                 </a>
             </div>
-        </nav>
+        </div>
     )
 }
 

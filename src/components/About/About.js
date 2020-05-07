@@ -1,5 +1,5 @@
 import React from 'react';
-import "../../assets/styles/content.css";
+import "./content.css";
 import headshot from '../../assets/images/Headshot.jpg';
 import Git from '../../assets/images/Git.svg';
 import Gmail from '../../assets/images/Gmail.png';
@@ -13,7 +13,7 @@ const About = () => {
                 About
             </h2>
             <div className="page-content">
-                <img src={headshot} className="page-headshot" alt="Profile Picture"/>
+                <img src={headshot} className="page-headshot" alt="Profile "/>
                 <p className="page-element">
                     My name is Dakota Rennemann and I am currently a student at the University of Florida studying Computer Science.
                     I am very passionate about writing software of all kinds. I especially enjoy working with frameworks such as React and Node as well as languages like Python, C++, and C#.
