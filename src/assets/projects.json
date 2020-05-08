@@ -4,7 +4,7 @@
       "name": "UFOSC Website",
       "description": "The club website for the University of Florida Open Source Club.",
       "link": "https://github.com/ufosc/club-website",
-      "picture": "images/website.PNG",
+      "picture": "images/website.png",
       "languages": [
         "React",
         "Node",
