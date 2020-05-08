@@ -2,8 +2,8 @@
   "projects": [
     {
       "name": "UFOSC Website",
-      "description": "This is project",
-      "link": "https://github.com/rennemannd/dakotarennemann",
+      "description": "The club website for the University of Florida Open Source Club.",
+      "link": "https://github.com/ufosc/club-website",
       "picture": "images/website.PNG",
       "languages": [
         "React",
@@ -14,7 +14,7 @@
     },
     {
       "name": "Personal Site",
-      "description": "This is project",
+      "description": "The personal site for Dakota Rennemann.",
       "link": "https://github.com/rennemannd/dakotarennemann",
       "picture": "images/personal.png",
       "languages": [
@@ -22,8 +22,8 @@
       ]
     },{
       "name": "STEM+C Blockly",
-      "description": "This is project",
-      "link": "https://github.com/rennemannd/dakotarennemann",
+      "description": "An application that allows students to program arduino boards from the web browser using blocks and not requiring any extra downloads.",
+      "link": "https://github.com/EngagingLearningLab/STEM-C",
       "picture": "images/stem.png",
       "languages": [
         "React",
@@ -32,54 +32,54 @@
       ]
     },{
       "name": "Albot and Albota",
-      "description": "This is project",
-      "link": "https://github.com/rennemannd/dakotarennemann",
-      "picture": "",
+      "description": "A bot that handles basic automation and includes fun interactions built for the University of Florida Open Source Club discord server.",
+      "link": "https://github.com/ufosc/albot-and-albota",
+      "picture": "images/bot.png",
       "languages": [
         "React",
         "Node"
       ]
     },{
       "name": "Tournament Tracker",
-      "description": "This is project",
+      "description": "This project was built to act as a basic tournament tracker where teams could be assigned brackets.",
       "link": "https://github.com/rennemannd/dakotarennemann",
-      "picture": "",
+      "picture": "images/tournament.png",
       "languages": [
         "C#",
         ".NET CORE"
       ]
     },{
-      "name": "Memory Manager",
-      "description": "This is project",
+      "name": "Virtual Filesystem",
+      "description": "Allows a user to mount a virtual file system given a file in .WAD format.",
       "link": "https://github.com/rennemannd/dakotarennemann",
-      "picture": "",
+      "picture": "images/files.png",
       "languages": [
-        "React",
-        "Node"
+        "C++",
+        "C"
       ]
     },{
-      "name": "Vencore Training Software",
-      "description": "This is project",
+      "name": "Perspecta Training Software",
+      "description": "Software meant to help members of the Air Force detect nuclear explosions. Also includes full training for the aforementioned systems.",
       "link": "https://github.com/rennemannd/dakotarennemann",
-      "picture": "",
+      "picture": "images/perspecta.jpg",
       "languages": [
-        "React",
-        "Node"
+        "Java",
+        "Lightray"
       ]
     },{
       "name": "CEN3031 Bootcamps",
-      "description": "This is project",
+      "description": "A set of bootcamps designed to teach students in the class CEN 3031 at the University of Florida the MERN stack of technologies.",
       "link": "https://github.com/rennemannd/dakotarennemann",
-      "picture": "",
+      "picture": "images/bootcamp.png",
       "languages": [
         "React",
         "Node"
       ]
     },{
       "name": "CEN3031 Project Showcase",
-      "description": "This is project",
+      "description": "A website meant to showcase final student projects from teh class CEN 3031 at the Univerity of Florida.",
       "link": "https://github.com/rennemannd/dakotarennemann",
-      "picture": "",
+      "picture": "images/showcase.png",
       "languages": [
         "React",
         "Node"
