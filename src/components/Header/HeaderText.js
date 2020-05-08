@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Typist from 'react-typist';
-import "../../assets/styles/Header.css"
+import "./Header.css"
 
 
 const HeaderText = () => {

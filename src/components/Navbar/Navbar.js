@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/styles/Navbar.css'
+import './Navbar.css'
 import {Link} from "react-scroll";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,7 +8,7 @@ import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
 
     return(
-        <nav className="navBar">
+        <div className="navBar">
             <div className="navItems">
                 <Link
                     className="navItem"
@@ -16,10 +16,19 @@ const Navbar = () => {
                     to="title"
                     spy={true}
                     smooth={true}
+                    offset={-100}
+                    duration={500}
+                > Welcome </Link>
+                <Link
+                    className="navItem"
+                    activeClass="active"
+                    to="projects"
+                    spy={true}
+                    smooth={true}
                     offset={0}
                     duration={500}
                 >
-                    Welcome
+                    Projects
                 </Link>
                 <Link
                 className="navItem"
@@ -42,7 +51,7 @@ const Navbar = () => {
                     <FontAwesomeIcon icon={faExternalLinkAlt} size="xs" transform="up-6 right-4"/>
                 </a>
             </div>
-        </nav>
+        </div>
     )
 }
 
