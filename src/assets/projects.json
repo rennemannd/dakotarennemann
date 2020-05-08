@@ -1,0 +1,89 @@
+{
+  "projects": [
+    {
+      "name": "UFOSC Website",
+      "description": "This is project",
+      "link": "https://github.com/rennemannd/dakotarennemann",
+      "picture": "images/website.PNG",
+      "languages": [
+        "React",
+        "Node",
+        "Express",
+        "Mongoose"
+      ]
+    },
+    {
+      "name": "Personal Site",
+      "description": "This is project",
+      "link": "https://github.com/rennemannd/dakotarennemann",
+      "picture": "images/personal.png",
+      "languages": [
+        "React"
+      ]
+    },{
+      "name": "STEM+C Blockly",
+      "description": "This is project",
+      "link": "https://github.com/rennemannd/dakotarennemann",
+      "picture": "images/stem.png",
+      "languages": [
+        "React",
+        "Node",
+        "C++"
+      ]
+    },{
+      "name": "Albot and Albota",
+      "description": "This is project",
+      "link": "https://github.com/rennemannd/dakotarennemann",
+      "picture": "",
+      "languages": [
+        "React",
+        "Node"
+      ]
+    },{
+      "name": "Tournament Tracker",
+      "description": "This is project",
+      "link": "https://github.com/rennemannd/dakotarennemann",
+      "picture": "",
+      "languages": [
+        "C#",
+        ".NET CORE"
+      ]
+    },{
+      "name": "Memory Manager",
+      "description": "This is project",
+      "link": "https://github.com/rennemannd/dakotarennemann",
+      "picture": "",
+      "languages": [
+        "React",
+        "Node"
+      ]
+    },{
+      "name": "Vencore Training Software",
+      "description": "This is project",
+      "link": "https://github.com/rennemannd/dakotarennemann",
+      "picture": "",
+      "languages": [
+        "React",
+        "Node"
+      ]
+    },{
+      "name": "CEN3031 Bootcamps",
+      "description": "This is project",
+      "link": "https://github.com/rennemannd/dakotarennemann",
+      "picture": "",
+      "languages": [
+        "React",
+        "Node"
+      ]
+    },{
+      "name": "CEN3031 Project Showcase",
+      "description": "This is project",
+      "link": "https://github.com/rennemannd/dakotarennemann",
+      "picture": "",
+      "languages": [
+        "React",
+        "Node"
+      ]
+    }
+  ]
+}
