@@ -1,52 +1,60 @@
 div {
-    font-family: 'IBM Plex Serif', serif;
+  font-family: 'IBM Plex Serif', serif;
 }
 
 .Typist .Cursor {
-    display: inline-block; }
+  display: inline-block;
+}
 .Typist .Cursor--blinking {
-    opacity: 1;
-    animation: blink 1s linear infinite; }
+  opacity: 1;
+  animation: blink 1s linear infinite;
+}
 
 .Header {
-    background-color: #282c34;
+  background-color: #282c34;
 }
 
 .Header-name {
-    color: dodgerblue;
+  color: dodgerblue;
 }
 
 .Header-particles canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .Header-typist {
-    display: flex;
-    text-align: center;
-    justify-content: flex-start;
-    background: none;
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  background: none;
 }
 
-.Header-typist em{
-    color: orange
+.Header-typist em {
+  color: orange;
 }
 
 .noselect {
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-    -moz-user-select: none; /* Old versions of Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none; /* Non-prefixed version, currently
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
 }
 
 @keyframes blink {
-    0% {
-        opacity: 1; }
-    50% {
-        opacity: 0; }
-    100% {
-        opacity: 1; } }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

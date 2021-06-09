@@ -3,6 +3,7 @@ import './Home.css';
 import Header from '../../components/Header/Header';
 import NavBar from '../../components/Navbar/Navbar';
 import About from '../../components/About/About';
+import Footer from '../../components/Footer/Footer';
 import ProjectList from '../../components/ProjectList/ProjectList';
 
 const Home = () => {
@@ -17,6 +18,9 @@ const Home = () => {
       </div>
       <div className="Home-body" id="about">
         <About />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

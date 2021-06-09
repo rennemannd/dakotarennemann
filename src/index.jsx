@@ -6,7 +6,9 @@ import Main from './main';
 
 ReactDOM.render(
   <Router>
-    <Main />
+    <React.StrictMode>
+      <Main />
+    </React.StrictMode>
   </Router>,
   document.getElementById('root')
 );
