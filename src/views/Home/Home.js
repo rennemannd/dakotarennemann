@@ -8,7 +8,7 @@ import ProjectList from '../../components/ProjectList/ProjectList';
 // This is the main home view for the website
 const Home = () => {
     useEffect(() => {
-        alert("This site is currently undergoing temporary maintenance and missing certain features, the full site will be live 05/09 at 10:00 EST")
+        alert("This site is currently undergoing temporary maintenance and missing certain features, the full site will be live 05/11 at 10 PM EST");
     })
 
     return (
