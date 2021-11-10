@@ -5,7 +5,7 @@ import NotFound from './views/NotFound';
 
 export const Routes = () => {
     useEffect(() => {
-        alert("This site is currently undergoing temporary maintenance, the full site will be live 11/07 at 12 PM EST");
+        alert("This site is currently undergoing temporary maintenance, the full site will be live 11/11 at 12 PM EST");
     })
 
     return(
