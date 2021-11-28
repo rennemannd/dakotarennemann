@@ -1,15 +1,21 @@
 import React from 'react';
-import './Navbar.css';
-import { Navbar as bootstrapNavBar } from 'react-bootstrap/Navbar';
+import './TopNavbar.css';
+import { Navbar } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import {
+  AiFillStar,
+  AiOutlineHome,
+  AiOutlineFundProjectionScreen,
+  AiOutlineUser,
+} from 'react-icons/ai';
 
 const useState = React.useState;
 
-const Navbar = () => {
+const TopNavbar = () => {
   const [expanded, setExpanded] = useState(false);
   const [navColor, setNavColor] = useState(false);
 
@@ -24,19 +30,71 @@ const Navbar = () => {
   window.addEventListener('scroll', scrollHandler);
 
   return (
-    <bootstrapNavBar
+    <Navbar
       expanded={expanded}
       fixed={top}
       expand="md"
       className={navColor ? 'sticky' : 'navbar'}
     >
       <Container>
-        <bootstrapNavBar.Brand href="/">
+        <Navbar.Brand href="/">
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
           <h1>DR.</h1>
-        </bootstrapNavBar.Brand>
+        </Navbar.Brand>
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          onClick={() => {
+            setExpanded(expanded ? false : 'expanded');
+          }}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </Navbar.Toggle>
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ml-auto" defaultActiveKey="#home">
+            <Nav.Item>
+              <Nav.Link as={Link} to="/" onClick={() => setExpanded(false)}>
+                <AiOutlineHome style={{ marginBottom: '2px' }} /> Home
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/about"
+                onClick={() => setExpanded(false)}
+              >
+                <AiOutlineUser style={{ marginBottom: '2px' }} /> About
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/project"
+                onClick={() => setExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: '2px' }}
+                />{' '}
+                Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => setExpanded(false)}
+              >
+                Resume
+              </Nav.Link>
+            </Nav.Item>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
-    </bootstrapNavBar>
+    </Navbar>
   );
   //   return (
   //     <div className="navBar">
@@ -93,4 +151,4 @@ const Navbar = () => {
   //   );
 };
 
-export default Navbar;
+export default TopNavbar;
